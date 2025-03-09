@@ -16,3 +16,26 @@ Dataset :
 
 https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset/data
 
+Please look into the csv file in this repo emails.csv for the dataset I have been working on.
+
+Resources and learning material are provided in this repo for the above project.
+
+About Dataset
+Dataset Name: Spam Email Dataset
+
+Description:
+This dataset contains a collection of email text messages, labeled as either spam or not spam. Each email message is associated with a binary label, where "1" indicates that the email is spam, and "0" indicates that it is not spam. The dataset is intended for use in training and evaluating spam email classification models.
+
+Columns:
+
+text (Text): This column contains the text content of the email messages. It includes the body of the emails along with any associated subject lines or headers.
+
+spam_or_not (Binary): This column contains binary labels to indicate whether an email is spam or not. "1" represents spam, while "0" represents not spam.
+
+Usage:
+This dataset can be used for various Natural Language Processing (NLP) tasks, such as text classification and spam detection. Researchers and data scientists can train and evaluate machine learning models using this dataset to build effective spam email filters.
+
+
+
+
+
