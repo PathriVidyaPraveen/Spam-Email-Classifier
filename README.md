@@ -47,7 +47,10 @@ Installation and Setup Guide:
    Open the terminal and run sudo apt update. Ensure that pip (Python package manager) is installed:sudo apt install python3-pip.
    Since nltk is available in Ubuntu’s package manager, you can install it using: sudo apt install python3-nltk
 
-3) 
+3) We use scikit-learn ML library. To set up this in Ubuntu terminal , use the folloing command.
+    sudo apt install python3-sklearn
+
+4) 
 
 
 
