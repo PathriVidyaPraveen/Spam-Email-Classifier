@@ -36,6 +36,18 @@ Usage:
 This dataset can be used for various Natural Language Processing (NLP) tasks, such as text classification and spam detection. Researchers and data scientists can train and evaluate machine learning models using this dataset to build effective spam email filters.
 
 
+Installation and Setup Guide:
+
+1) Firstly make sure that basic libraries like numpy , pandas and matplotlib are installed in the system. To install these (in Ubuntu terminal) ,
+    sudo apt update
+  sudo apt install python3-numpy python3-pandas python3-matplotlib
+
+
+2) Next , we use a Python library for NLP called "nltk" (Natural Language ToolKit) . To install this in Ubuntu ,
+   Open the terminal and run sudo apt update. Ensure that pip (Python package manager) is installed:sudo apt install python3-pip.
+   Since nltk is available in Ubuntu’s package manager, you can install it using: sudo apt install python3-nltk
+
+3) 
 
 
 
