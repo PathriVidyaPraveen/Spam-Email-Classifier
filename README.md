@@ -92,7 +92,11 @@ This may also be one of the challenge I have faced in this project that the mode
 4) May be model was trained with a limited spam variations that it could not grasp the vast differences easily.
 
 
-So , I have created a new classifier model (train_and_test_combined_data.py) with same logistic regression but completely new one which is only trained to combined_data.csv file similar to previous model where it is trained with emails.csv file . Now this new model showed 98.5% accuracy approx for testing and validation data using 60-20-20 spliiting. This indicates that there is large variations in the vocabulary and structure of dataset and so the model should be exposed to large number of datasets to expand its knowledge and improve its accuracy score.
+So , I have created a new classifier model (train_and_test_combined_data.py) with same logistic regression but completely new one which is only trained to combined_data.csv file similar to previous model where it is trained with emails.csv file . Now this new model showed 98.5% accuracy approx for testing and validation data using 60-20-20 spliiting. This indicates that there is large variations in the vocabulary and structure of dataset and so the model should be exposed to large number of datasets to expand its knowledge and improve its accuracy score. 
+
+
+Now with the file (test_combined_data_after_training) to add new vocabulary to the old model to expand the old model and it is working with 98.3% accuracy approx.
+In this way , we can extend this to many datasets and continuously train and test new datasets. This is the best thing that I have learned in this project on training the AI models .
 
 
 
