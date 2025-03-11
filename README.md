@@ -97,7 +97,7 @@ So , I have created a new classifier model (train_and_test_combined_data.py) wit
 
 
 Now with the file (test_combined_data_after_training) to add new vocabulary to the old model to expand the old model and it is working with 98.3% accuracy approx.
-In this way , we can extend this to many datasets and continuously train and test new datasets. This is the best thing that I have learned in this project on training the AI models .
+In this way , we can extend this to many datasets and continuously train and test new datasets. This is the most enjoyable and valuable experience that I have gained in this project on training the AI models .
 
 
 
