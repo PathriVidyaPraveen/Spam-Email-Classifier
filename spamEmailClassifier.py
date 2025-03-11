@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import nltk
 import sklearn
+import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -107,4 +108,7 @@ print("Accuracy score for final validation data : {}".format(validation_data_sco
 
 
 print(classification_report(Y_test , Y_test_predicted))
+
+joblib.dump(best_model, "spam_email_classification_model.pkl")
+joblib.dump(vectorizer,"tf-idf-vectorizer.pkl")
 
