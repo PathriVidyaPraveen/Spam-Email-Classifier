@@ -83,24 +83,3 @@ Y_test_predicted = best_model.predict(X_test)
 validation_data_score = accuracy_score(Y_test , Y_test_predicted)
 print("Accuracy score for final validation data : {}".format(validation_data_score))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
