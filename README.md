@@ -75,6 +75,7 @@ I wanted to explore further into various ML models and algorithms that I can use
 
 Model Saving and Reuse :
 I used joblib for saving and re-using the model for new dataset.
+Model and Vectorizer are stored as .pkl files
 
 Report on testing the model on a completely new dataset :
 
