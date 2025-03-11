@@ -77,7 +77,7 @@ c_grid = {'C':[0.001,0.01,0.1,1]}
 # Now we want to test the regularization strengths and chose the best one out of it
 loaded_model = joblib.load("spam_email_classification_model.pkl")
 loaded_model.fit(X_train , Y_train)
-joblib.dump(loaded_model, "updated_spam_email_model.pkl")
+joblib.dump(loaded_model, "spam_email_classification_model.pkl")
 
 grid_search = GridSearchCV(loaded_model,c_grid,cv=5)
 # Now we have to train it on training data which we have separated as 60% of dataset
