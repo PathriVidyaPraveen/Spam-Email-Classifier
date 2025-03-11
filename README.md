@@ -1,9 +1,6 @@
 # Spam-Email-Classifier-Tinkerer-s-Lab-Project-
 
 
-Disclaimer : Project currently under development.
-
-
 This repo contains source code of a ML model of Spam Email Classifier. This was done as a part of Tinkerer's Lab Club Project. 
 
 I chose this project because it provides hands-on experience in ML, Natural Language Processing, and Data Preprocessing, which are essential for building real-world applications. I am particularly fascinated by how ML models can parse and understand human language to make intelligent decisions.
@@ -78,6 +75,22 @@ I wanted to explore further into various ML models and algorithms that I can use
 
 Model Saving and Reuse :
 I used joblib for saving and re-using the model for new dataset.
+
+Report on testing the model on a completely new dataset :
+
+Dataset link : https://www.kaggle.com/datasets/purusinghvi/email-spam-classification-dataset
+
+This was done using the file test_combined_data.py
+
+It showed upto 74% accuracy .
+This may also be one of the challenge I have faced in this project that the model which had performed extraordinarily well in one type of dataset with 97% accuracy score drastically dropped to 74% in the completely new dataset. So the possible reasons for this might be : 
+
+
+1) Model may be overfit slightly to the previous dataset and therefore is less accurate to generalizations to new dataset
+2) There may be some different spam patterns that the model is not aware of previously from training the previous dataset
+3) Tf-IDF vectorization may have missed some new spam words.
+4) May be model was trained with a limited spam variations that it could not grasp the vast differences easily.
+
 
 
 
