@@ -18,7 +18,7 @@ loaded_model = joblib.load("spam_email_classification_model.pkl")
 loaded_vectorizer = joblib.load("tf-idf-vectorizer.pkl")
 print("Loaded the model and vectorizer successfully")
 
-# Example new email
+# Example new email ( change this mail with spam or not spam mails and check the model accuracy )
 new_email = ["Team Meeting Scheduled for Tomorrow"]
   
 
