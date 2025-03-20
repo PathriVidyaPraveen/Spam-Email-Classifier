@@ -37,6 +37,21 @@ Usage:
 This dataset can be used for various Natural Language Processing (NLP) tasks, such as text classification and spam detection. Researchers and data scientists can train and evaluate machine learning models using this dataset to build effective spam email filters.
 
 
+**What is Logistic Regression ?**
+Logistic Regression is a machine learning algorithm used for binary classification, which means it predicts one of two possible outcomes—in our case, Spam or Not Spam.
+
+Unlike Linear Regression, which predicts continuous values, Logistic Regression predicts probabilities. It applies a transformation to ensure the output remains between 0 and 1, which can be interpreted as the likelihood of an email being spam.
+**How is Logistic Regression Used in This Project?**
+Feature Extraction: Emails are first converted into numerical representations using TF-IDF vectorization, which captures important words and their significance.
+Training the Model: Logistic Regression is trained on labeled emails (Spam or Not Spam) to learn patterns associated with spammy content.
+Making Predictions: Given a new email, the model calculates a probability score and classifies it as Spam if it exceeds a certain threshold or Not Spam otherwise.
+**Why Logistic Regression?**
+It is simple yet effective for binary classification problems like spam detection.
+It provides a probability score, making it interpretable and easy to tune.
+Most importantly , it is lightweighted compared to many other ML models like SVM and Deep Learning models.
+
+
+
 Installation and Setup Guide:
 
 1) Firstly make sure that basic libraries like numpy , pandas and matplotlib are installed in the system. To install these (in Ubuntu terminal) ,
